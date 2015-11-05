@@ -5,12 +5,13 @@
     bliss is a simple and accurate album artwork finder and music meta-data manager.[br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
     [b]/config[/b] This is where the Bliss configuration and library files will reside[br][br]
-    Don't forget to enter in the host port and the config folder location. [br][br]
+    [b]/music[/b] This is where your music library is[br][br]
+    Don't forget to enter in the host port and the config and music folder location. [br][br]
     [span style='color: #E80000;']3220[/span] is the WebUI port[br]
     To access the Bliss GUI, open the WebUI.[br][br]
   </Description>
   <Overview>
-  liss is a simple and accurate album artwork finder. Discover art for rare recordings. Free your art to view anywhere. Update existing art with one click. Configure once, then enjoy.
+  Bliss is a simple and accurate album artwork finder. Discover art for rare recordings. Free your art to view anywhere. Update existing art with one click. Configure once, then enjoy.
   </Overview>
   <Support>http://lime-technology.com/forum/</Support>
   <Registry>https://registry.hub.docker.com/u/gshipley/bliss/</Registry>
@@ -47,7 +48,7 @@
     </Volume>
     <Volume>
       <HostDir></HostDir>
-      <ContainerDir>/config</ContainerDir>
+      <ContainerDir>/music</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
