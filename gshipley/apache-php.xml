@@ -44,7 +44,13 @@
       <HostDir></HostDir>
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
+      </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/var/www/html</ContainerDir>
+      <Mode>rw</Mode>
     </Volume>
+
     <Volume>
       <HostDir></HostDir>
       <ContainerDir>/mags</ContainerDir>

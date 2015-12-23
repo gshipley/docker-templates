@@ -6,6 +6,7 @@
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
     [b]/config[/b] This is where the configuration and library files will reside[br][br]
     [b]/mags[/b] This is where your magazine library is[br][br]
+    [b]/var/www/html[/b] This is where your code is[br][br]
     Don't forget to enter in the host port and the config and music folder location. [br][br]
     [span style='color: #E80000;']3220[/span] is the WebUI port[br]
   </Description>
