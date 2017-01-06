@@ -37,17 +37,13 @@
   <Environment>
      <Variable>
       <Value>99</Value>
-      <Name>PUID</Name>
+      <Name>USER_ID</Name>
       <Mode/>
     </Variable>
     <Variable>
       <Value>100</Value>
-      <Name>PGID</Name>
+      <Name>GROUP_ID</Name>
       <Mode/>
-    </Variable>
-    <Variable>
-      <Name>BRANCH</Name>
-      <Value>master</Value>
     </Variable>
   </Environment>    
   <Data>
